@@ -1,16 +1,57 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>My Portfolio</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-        }
-    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="CS180 computer vision and computational photography portfolio.">
+    <title>CS180 Computer Vision Portfolio</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <h1>Welcome to My CS180 Portfolio!</h1>
-    <a href="./1/index.html">Project 1</a>
+    <header class="site-header">
+        <a class="wordmark" href="./index.html" aria-label="CS180 portfolio home">
+            <span class="wordmark-mark">C</span>
+            <span>CS180 Portfolio</span>
+        </a>
+        <span class="term">Fall 2026</span>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-copy">
+                <p class="eyebrow">Computer Vision · Computational Photography</p>
+                <h1>Experiments<br>with a <em>Camera</em></h1>
+                <p class="hero-aside">... and trembling hands</p>
+            </div>
+
+            <div class="hero-art" aria-hidden="true">
+                <span class="focus-ring focus-ring-large"></span>
+                <span class="focus-ring focus-ring-small"></span>
+                <span class="focus-dot"></span>
+                <span class="frame-corner frame-corner-one"></span>
+                <span class="frame-corner frame-corner-two"></span>
+            </div>
+        </section>
+
+        <section class="project-section">
+            <a class="project-card" href="./0/index.html">
+                <div class="project-photo">
+                    <img src="./0/media/architecture-far.jpeg" alt="Apartment building photographed from farther away with zoom">
+                    <span class="project-index">00</span>
+                </div>
+                <div class="project-copy">
+                    <p class="project-label">Project 0</p>
+                    <h2>Becoming Friends with Your Camera</h2>
+                    <p class="project-meta">Perspective, focal length, and the center of projection.</p>
+                    <span class="project-arrow" aria-hidden="true">↗</span>
+                </div>
+            </a>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <span>UC Berkeley · CS180 · Fall 2026</span>
+        <span class="footer-mark" aria-hidden="true">●</span>
+    </footer>
 </body>
 </html>

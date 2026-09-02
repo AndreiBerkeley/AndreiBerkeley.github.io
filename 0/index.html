@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Project 0: Becoming Friends with Your Camera.">
+    <title>Project 0 · Becoming Friends with Your Camera</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header class="project-header">
+        <a class="back-link" href="../index.html" aria-label="Back to CS180 portfolio">
+            <span aria-hidden="true">←</span>
+            <span>CS180 Portfolio</span>
+        </a>
+        <span class="project-marker">Project 0 · Camera and Perspective</span>
+    </header>
+
+    <main>
+        <section class="project-hero">
+            <div class="hero-number" aria-hidden="true">00</div>
+            <h1>Becoming Friends<br>with Your <em>Camera</em></h1>
+            <div class="hero-orbit" aria-hidden="true">
+                <span></span>
+            </div>
+        </section>
+
+        <section class="photo-section section-light">
+            <div class="section-title">
+                <span class="section-number" aria-hidden="true">01</span>
+                <h2>Part 1: Selfie: The Wrong Way vs. The Right Way</h2>
+            </div>
+
+            <div class="photo-grid portrait-grid">
+                <figure>
+                    <img src="./media/selfie-close.jpeg" alt="Close-up portrait">
+                </figure>
+                <figure>
+                    <img src="./media/selfie-far.jpeg" alt="Portrait photographed from farther away with zoom">
+                </figure>
+            </div>
+
+            <div class="explanation-space">
+                <p>Taking a portrait or selfie from close range makes the ears and sides of the face less visible while emphasizing the nose. Stepping backward and zooming in creates more natural proportions between facial features and brings side elements, such as the ears, back into view.</p>
+            </div>
+        </section>
+
+        <section class="photo-section section-blue">
+            <div class="section-title">
+                <span class="section-number" aria-hidden="true">02</span>
+                <h2>Part 2: Architectural Perspective Compression</h2>
+            </div>
+
+            <div class="photo-grid architecture-grid">
+                <figure>
+                    <img src="./media/architecture-far.jpeg" alt="Building photographed from farther away with zoom">
+                </figure>
+                <figure>
+                    <img src="./media/architecture-close.jpeg" alt="Building photographed from nearby without zoom">
+                </figure>
+            </div>
+
+            <div class="explanation-space">
+                <p>When photographed from far away, the different parts of the scene are at more similar relative distances, making the building appear flatter. Moving closer increases those distance differences and creates a stronger sense of depth.</p>
+            </div>
+        </section>
+
+        <section class="photo-section section-accent">
+            <div class="section-title">
+                <span class="section-number" aria-hidden="true">03</span>
+                <h2>Part 3: The Dolly Zoom</h2>
+            </div>
+
+            <figure class="dolly-space">
+                <img id="dolly-frame" src="./media/dolly-frames/1.jpeg" alt="Dolly zoom sequence with a stuffed animal">
+                <button class="dolly-control" id="dolly-control" type="button" aria-pressed="false">
+                    <span id="dolly-control-icon" aria-hidden="true">Ⅱ</span>
+                    <span id="dolly-control-label">Pause</span>
+                </button>
+            </figure>
+
+            <div class="explanation-space">
+                <p>The camera moves backward while zooming in enough to keep the subject approximately the same size. The subject remains stable, but the background changes scale, producing the Dolly Zoom effect.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="project-footer">
+        <a href="../index.html"><span aria-hidden="true">←</span> CS180 Portfolio</a>
+        <span>UC Berkeley · Fall 2026</span>
+    </footer>
+    <script src="./player.js"></script>
+</body>
+</html>
