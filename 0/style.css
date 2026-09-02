@@ -58,8 +58,8 @@ img {
 .project-hero {
     position: relative;
     display: flex;
-    min-height: 630px;
-    padding: 85px 4vw 110px;
+    min-height: 540px;
+    padding: 72px 4vw 94px;
     align-items: center;
     overflow: hidden;
 }
@@ -70,7 +70,7 @@ img {
     max-width: 1190px;
     margin: 0;
     font-family: Georgia, 'Times New Roman', serif;
-    font-size: clamp(4.6rem, 9.5vw, 10.5rem);
+    font-size: clamp(3.9rem, 8.1vw, 8.9rem);
     font-weight: 400;
     line-height: 0.83;
     letter-spacing: -0.065em;
@@ -83,11 +83,11 @@ img {
 
 .hero-number {
     position: absolute;
-    top: 62px;
+    top: 53px;
     right: 4vw;
     color: var(--paper-deep);
     font-family: Georgia, 'Times New Roman', serif;
-    font-size: clamp(11rem, 28vw, 30rem);
+    font-size: clamp(9.4rem, 24vw, 25.5rem);
     line-height: 0.8;
 }
 
@@ -95,8 +95,8 @@ img {
     position: absolute;
     right: 9%;
     bottom: 8%;
-    width: 210px;
-    height: 210px;
+    width: 180px;
+    height: 180px;
     border: 1px solid var(--accent);
     border-radius: 50%;
 }
@@ -113,7 +113,7 @@ img {
 }
 
 .photo-section {
-    padding: 100px 4vw 120px;
+    padding: 85px 4vw 102px;
 }
 
 .section-light {
@@ -137,39 +137,39 @@ img {
 }
 
 .photo-grid {
-    max-width: 1080px;
+    max-width: 960px;
     margin-inline: auto;
 }
 
 .dolly-space {
-    max-width: 620px;
+    max-width: 560px;
     margin-inline: auto;
 }
 
 .section-title {
     display: grid;
-    margin-bottom: 58px;
-    grid-template-columns: 80px minmax(0, 1fr);
+    margin-bottom: 49px;
+    grid-template-columns: 68px minmax(0, 1fr);
     align-items: start;
     gap: clamp(22px, 5vw, 74px);
 }
 
 .section-number {
     display: grid;
-    width: 58px;
-    height: 58px;
+    width: 50px;
+    height: 50px;
     place-items: center;
     border: 1px solid currentColor;
     border-radius: 50%;
     font-family: Georgia, 'Times New Roman', serif;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
 }
 
 .section-title h2 {
-    max-width: 1050px;
+    max-width: 900px;
     margin: 0;
     font-family: Georgia, 'Times New Roman', serif;
-    font-size: clamp(3rem, 6.2vw, 7.2rem);
+    font-size: clamp(2.55rem, 5.3vw, 6.1rem);
     font-weight: 400;
     line-height: 0.96;
     letter-spacing: -0.05em;
@@ -224,7 +224,7 @@ img {
 
 .dolly-space {
     position: relative;
-    width: min(100%, 620px);
+    width: min(100%, 560px);
     margin-block: 0;
     overflow: hidden;
     border: 10px solid var(--paper);
@@ -282,12 +282,12 @@ img {
     }
 
     .project-hero {
-        min-height: 540px;
+        min-height: 470px;
         padding-inline: 22px;
     }
 
     .project-hero h1 {
-        font-size: clamp(4rem, 19vw, 6.3rem);
+        font-size: clamp(3.4rem, 16vw, 5.35rem);
     }
 
     .hero-number {
@@ -295,16 +295,16 @@ img {
     }
 
     .photo-section {
-        padding: 74px 22px 88px;
+        padding: 63px 22px 75px;
     }
 
     .section-title {
         grid-template-columns: 1fr;
-        margin-bottom: 38px;
+        margin-bottom: 32px;
     }
 
     .section-title h2 {
-        font-size: clamp(2.8rem, 13vw, 4.9rem);
+        font-size: clamp(2.4rem, 11vw, 4.15rem);
     }
 
     .photo-grid {
